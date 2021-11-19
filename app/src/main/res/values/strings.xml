@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RentalZ</string>
+    <string name="notification_03">If (n &gt; 3 &amp;&amp; n &lt; 5) then &#8230;</string>
+    <string name="pr_name">Property name</string>
+    <string name="pr_address">Property address</string>
+    <string name="pr_city">City</string>
+    <string name="pr_district">District</string>
+    <string name="pr_ward">Ward</string>
+    <string name="pr_type">Property Type</string>
+    <string name="pr_furniture">Property Furniture</string>
+    <string name="pr_bedroom">Number of bedrooms</string>
+    <string name="pr_price">Monthly price</string>
+    <string name="pr_reporter">Reporter</string>
+    <string name="pr_note">Property Note</string>
+    <string name="btn_create">Create a new property</string>
+    <string name="noti_01">Everything is ready</string>
+    <string name="noti_02">You have successfully initialized the new property</string>
+    <string name="noti_03"></string>
+</resources>

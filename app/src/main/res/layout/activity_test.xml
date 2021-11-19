@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <TextView
+        android:id="@+id/lblUsername_Test"
+        android:layout_width="129dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/pr_name"
+        app:layout_constraintBottom_toBottomOf="@+id/ipName_test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ipName_test"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/ipName_test"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/lblUsername_Test"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblPassword_Test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_address"
+        app:layout_constraintBottom_toBottomOf="@+id/ipAddress_test"
+        app:layout_constraintEnd_toEndOf="@+id/lblUsername_Test"
+        app:layout_constraintStart_toStartOf="@+id/lblUsername_Test"
+        app:layout_constraintTop_toTopOf="@+id/ipAddress_test" />
+
+    <TextView
+        android:id="@+id/ipAddress_test"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipName_test"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ipName_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipName_test" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="20dp"
+        android:text="New property you just created"
+        app:layout_constraintBottom_toTopOf="@+id/ipName_test"
+        app:layout_constraintEnd_toEndOf="@+id/ipName_test"
+        app:layout_constraintStart_toStartOf="@+id/lblUsername_Test"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_city"
+        app:layout_constraintBottom_toBottomOf="@+id/ipCity_test"
+        app:layout_constraintEnd_toEndOf="@+id/lblPassword_Test"
+        app:layout_constraintStart_toStartOf="@+id/lblPassword_Test"
+        app:layout_constraintTop_toTopOf="@+id/ipCity_test" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_district"
+        app:layout_constraintBottom_toBottomOf="@+id/ipDistrict_test"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/ipDistrict_test"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_ward"
+        app:layout_constraintBottom_toBottomOf="@+id/ipWard_test"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/ipWard_test" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_type"
+        app:layout_constraintBottom_toBottomOf="@+id/ipType_test"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/ipType_test" />
+
+    <TextView
+        android:id="@+id/ipCity_test"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipAddress_test"
+        app:layout_constraintStart_toStartOf="@+id/ipAddress_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipAddress_test" />
+
+    <TextView
+        android:id="@+id/ipDistrict_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipCity_test"
+        app:layout_constraintStart_toStartOf="@+id/ipCity_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipCity_test" />
+
+    <TextView
+        android:id="@+id/ipWard_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipDistrict_test"
+        app:layout_constraintStart_toStartOf="@+id/ipDistrict_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipDistrict_test" />
+
+    <TextView
+        android:id="@+id/ipType_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipWard_test"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ipWard_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipWard_test" />
+
+    <TextView
+        android:id="@+id/ipFurniture_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipType_test"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ipType_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipType_test" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_furniture"
+        app:layout_constraintBottom_toBottomOf="@+id/ipFurniture_test"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="@+id/ipFurniture_test" />
+
+    <TextView
+        android:id="@+id/ipBedroom_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipFurniture_test"
+        app:layout_constraintStart_toStartOf="@+id/ipFurniture_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipFurniture_test" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_bedroom"
+        app:layout_constraintBottom_toBottomOf="@+id/ipBedroom_test"
+        app:layout_constraintEnd_toEndOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="@+id/ipBedroom_test" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_price"
+        app:layout_constraintBottom_toBottomOf="@+id/ipPrice_test"
+        app:layout_constraintEnd_toEndOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toTopOf="@+id/ipPrice_test" />
+
+    <TextView
+        android:id="@+id/ipPrice_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipBedroom_test"
+        app:layout_constraintStart_toStartOf="@+id/ipBedroom_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipBedroom_test" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_reporter"
+        app:layout_constraintBottom_toBottomOf="@+id/ipReporter_test"
+        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toTopOf="@+id/ipReporter_test" />
+
+    <TextView
+        android:id="@+id/ipReporter_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipPrice_test"
+        app:layout_constraintStart_toStartOf="@+id/ipPrice_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipPrice_test" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pr_note"
+        app:layout_constraintBottom_toBottomOf="@+id/ipNote_test"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/ipNote_test" />
+
+    <TextView
+        android:id="@+id/ipNote_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ipReporter_test"
+        app:layout_constraintStart_toStartOf="@+id/ipReporter_test"
+        app:layout_constraintTop_toBottomOf="@+id/ipReporter_test" />
+</androidx.constraintlayout.widget.ConstraintLayout>
