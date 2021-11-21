@@ -6,13 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class TestActivity extends AppCompatActivity {
+public class ShowActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test);
-
+        setContentView(R.layout.activity_show);
         TextView ipName = findViewById(R.id.ipName_test);
         TextView ipAddress = findViewById(R.id.ipAddress_test);
         TextView ipCity = findViewById(R.id.ipCity_test);
@@ -73,7 +72,6 @@ public class TestActivity extends AppCompatActivity {
         ipPrice.setText(price);
         ipReporter.setText(reporter);
         ipNote.setText(note);
-
 
     }
 }
